@@ -21,23 +21,23 @@ For information about enrolling students in a course, see
 .. _edX.org and edX Edge:
 
 *************************
-edX.org and edX Edge
+edx.org and edX Edge
 *************************
 
-To explore edX courses, you can register on edX.org_, edX Edge_,
-or both. These sites are visually and functionally the same, but the content
-and purpose are different.
+To explore edX courses, you can register an account on the edx.org_ website,
+the edX Edge_ website, or both. These sites are visually and functionally
+similar, but their content and purposes are different.
 
-* edX.org hosts massive open online courses (MOOCs) from edX institutional
-  partners. To publish courses on edX.org, you must have an agreement with edX
-  and specific approval from your organization. Courses on edX.org are publicly
+* edx.org hosts massive open online courses (MOOCs) from edX institutional
+  partners. To publish a course on edx.org, you must have an agreement with edX
+  and specific approval from your organization. Courses on edx.org are publicly
   listed in the edX course catalog and are open to learners from around the
   world.
 
-* EdX Edge is edX's more private site. Courses on Edge are not published on
-  edX.org. Any member of a partner course team can create and publish courses,
-  including test courses, on Edge without receiving approval from edX or a
-  partner institution. 
+* Edge, at edge.edx.org, is a more private site. Courses on Edge are not
+  published on edx.org. Any member of a partner course team can create and
+  publish courses, including test courses, on Edge without receiving approval
+  from edX or a partner institution.
 
   However, Edge does not have a course catalog, and courses cannot be found
   through search engines such as Google. Only learners whom you explicitly
@@ -48,9 +48,9 @@ and purpose are different.
   EdX Edge also hosts small private online courses (SPOCs).
 
 .. note:: 
- All course data and accounts on Edge and edX.org are separate. If you want
- to use both edX.org and Edge, you must go through the registration process on
- both sites.
+ All course data and user accounts on Edge and edx.org are separate. If you
+ want to use both edx.org and Edge, you must complete the account registration
+ process on both sites.
 
 .. _Edge: http://edge.edx.org
 .. _edX.org: http://edx.org
@@ -61,41 +61,49 @@ and purpose are different.
 Create an Account
 *************************
 
-To get started, you create, or *register*, an account on edX.org or Edge.  
+To create, or register, an account on edx.org or Edge, follow these steps.  
 
 #. Go to the `edx.org registration`_ or `Edge registration`_ page.
 
-#. Optionally, select **Facebook** or **Google** to use your Facebook or Google
-   account to set up your edX account.
+#. Optionally, use one of your existing accounts to sign in. 
 
-#. If you do not use Facebook or Google to create your account, in the
-   registration form, enter your information in the fields that have an
-   asterisk (*).
+  - On edx.org, you can use your Facebook or Google account.
 
-  .. note::  
-   Learners will see the name that you enter in the **Public username** field,
-   not the name in the **Full name** field.
+  - On Edge, you can use your Facebook or Google account, or use your
+    credentials for a campus or institution account.
 
-  If you are at an edX partner institution, you should use your
-  institutional e-mail address.
+  Choosing one of these options links your new edx.org or Edge account to the
+  selected existing account. When you choose one of these options, some of the
+  information required for your new edx.org or Edge account is typically
+  provided for you to streamline the registration process. When you sign in to
+  the linked account you are automatically signed in to the edx.org or Edge
+  account.
 
-4. For edx.org, select  **I agree to the edX Terms of Service
-   and Honor Code**, and then select **Create your account**.
+3. On the registration page, enter the required information for your new
+   account. Fields with an asterisk (*) are required.
 
-   For Edge, select both **I agree to the Terms of Service** and **I agree
-   to the Honor Code**, and then select **Create My Edge Account**.
+  - If you are at an edX partner institution, supply your institutional email
+    address.
 
-5. In the activation email message, select the link to complete the activation.
-   When your account has been activated, your browser opens to an "Activation
-   Complete" page that contains a link to your dashboard.
+  - Learners and other course team members see the name that you enter in the
+    **Public username** field, not the name in the **Full name** field.
 
-You can modify your account information and reset your password from the
-:ref:`account settings<SFD Account Settings>` page. Note that account settings
-are available from the LMS and learner dashboard, not from Studio or the
-Studio dashboard.
+4. Select the applicable check box or boxes to accept the terms of service and
+   honor code.
+
+#. Select **Create**. An activation message is sent to your email address.
+
+#. In the activation email message, select the link to complete the activation.
+   Your browser opens to an "Activation Complete" page that contains a link to
+   your dashboard.
+
+You can modify your account information, reset your password, and link or
+unlink accounts on the :ref:`account settings<SFD Account Settings>` page. Note
+that you can only access the account settings page from the LMS, and not from
+Studio.
 
 .. _Edge registration: http://edge.edx.org/register
-.. _edX.org registration: https://courses.edx.org/register
+.. _edx.org registration: https://courses.edx.org/register
 
 .. _edX101_section:
 
@@ -103,10 +111,10 @@ Studio dashboard.
 The edX Demo Course and edX101
 ******************************
 
-EdX provides the `edX Demo course`_ and `Overview of Creating an edX Course`_
+EdX provides the edX Demo course and Overview of Creating an edX Course 
 to help familiarize you with taking and creating edX courses.
 
-* The edX Demo course allows new students to explore and learn how to take
+* The `edX Demo course`_ allows new students to explore and learn how to take
   an edX course. We recommend that you become familiar with the way students
   experience an edX course before you begin building your first course.
 
@@ -115,7 +123,7 @@ to help familiarize you with taking and creating edX courses.
     materials, and recommend that new learners take the edX Demo course before
     proceeding with your course.
 
-* Overview of Creating an edX Course is an example of a course built with
+* `Overview of Creating an edX Course`_ is an example of a course built with
   Studio. It is a self-paced walk-through of planning, building, and running
   your own online course.
 
