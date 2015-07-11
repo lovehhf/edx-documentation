@@ -11,9 +11,11 @@ getting started on edX websites.
 * :ref:`Create an Account`
 * :ref:`edX101_section`
 
-This information is intended for course team members. You might want to include
-the details about the registration process and password policies in your
-communications with prospective students.
+This information is intended for course team members. The *EdX Learner's Guide*
+also includes information about creating an account and the edX Demo course.
+You might want to share course- or institution-specific details about the
+registration process, such as password policies or the use of campus
+credentials, in your communications with prospective students.
 
 For information about enrolling students in a course, see
 :ref:`enroll_student`.
@@ -61,49 +63,19 @@ similar, but their content and purposes are different.
 Create an Account
 *************************
 
-To create, or register, an account on edx.org or Edge, follow these steps.  
+Before you create, or register, your account, note the following.
 
-#. Go to the `edx.org registration`_ or `Edge registration`_ page.
+* If you are at an edX partner institution, be sure to supply your
+  institutional email address.
 
-#. Optionally, use one of your existing accounts to sign in. 
+* Learners and other course team members see the name that you enter as your
+  public username in the LMS, not the full name that your enter. You cannot
+  change your public username after you register.
 
-  - On edx.org, you can use your Facebook or Google account.
+.. include:: ../../../shared/students/Section_register_account.rst
 
-  - On Edge, you can use your Facebook or Google account, or use your
-    credentials for a campus or institution account.
-
-  Choosing one of these options links your new edx.org or Edge account to the
-  selected existing account. When you choose one of these options, some of the
-  information required for your new edx.org or Edge account is typically
-  provided for you to streamline the registration process. When you sign in to
-  the linked account you are automatically signed in to the edx.org or Edge
-  account.
-
-3. On the registration page, enter the required information for your new
-   account. Fields with an asterisk (*) are required.
-
-  - If you are at an edX partner institution, supply your institutional email
-    address.
-
-  - Learners and other course team members see the name that you enter in the
-    **Public username** field, not the name in the **Full name** field.
-
-4. Select the applicable check box or boxes to accept the terms of service and
-   honor code.
-
-#. Select **Create**. An activation message is sent to your email address.
-
-#. In the activation email message, select the link to complete the activation.
-   Your browser opens to an "Activation Complete" page that contains a link to
-   your dashboard.
-
-You can modify your account information, reset your password, and link or
-unlink accounts on the :ref:`account settings<SFD Account Settings>` page. Note
-that you can only access the account settings page from the LMS, and not from
-Studio.
-
-.. _Edge registration: http://edge.edx.org/register
-.. _edx.org registration: https://courses.edx.org/register
+Note that you can only access the account settings page from the LMS, and not
+from Studio.
 
 .. _edX101_section:
 
