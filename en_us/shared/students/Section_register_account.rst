@@ -1,22 +1,23 @@
 To register an account on the edx.org or edX Edge website, go to the `edx.org
 registration`_ or `Edge registration`_ page, and then follow these steps.
 
-#. Optionally, sign in with one of your existing accounts. 
+#. Optionally, select one of your existing accounts.
 
   - On edx.org, you can select your Facebook or Google account.
 
-  - On edX Edge, you can select your Facebook or Google account, or use your
+  - On Edge, you can select your Facebook or Google account, or use your
     credentials for a campus or institution account.
 
-  When you choose one of these options, some of the information that is
-  required for your new edx.org or Edge account is typically provided for you
-  to streamline the registration process. Choosing one of these options links
-  your new edx.org or edX Edge account to the selected account. Whenever you
-  sign in to the linked account in the future, you are also signed in to your
-  edx.org or edX Edge account.
+  These options link your new edx.org or Edge account to the account you have
+  with the selected signin partner. After your accounts are linked, whenever
+  you sign in to the partner account you can also sign in to your edx.org or
+  Edge account with a single click.
 
 #. On the registration page, enter the required information for your new
    account. Fields with an asterisk (*) are required.
+
+   If you chose to link your account to an account with a signin partner, some
+   of the required information might be provided for you.
 
 #. Select the applicable options to accept the terms of service and
    honor code.
@@ -26,6 +27,9 @@ registration`_ or `Edge registration`_ page, and then follow these steps.
 #. In the activation email message, select the link to complete the activation.
    Your browser opens to an "Activation Complete" page that contains a link to
    your dashboard.
+   
+   If you chose to link your account to an account with a signin partner, this
+   email activation step might not be required.
 
 You can modify your account information, reset your password, and link or
 unlink accounts on the :ref:`account settings<SFD Account Settings>` page. 
