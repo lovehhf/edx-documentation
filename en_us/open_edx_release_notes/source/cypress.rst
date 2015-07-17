@@ -1,24 +1,143 @@
 ####################################
-Open edX Birch Release
+Open edX Cypress Release
 ####################################
 
-The Birch release of the Open edX Platform includes many new features, from new
-capabilities to APIs.
+The Cypress release of the Open edX Platform includes many new features, from
+new capabilities to APIs.
 
-This page lists the highlights of the Birch release.
+This page lists the highlights of the Cypress release.
 
 Also see the `edX Release Notes`_, which contain a list of weekly changes.
-Changes listed on January 28, 2015 and before are included in the Birch release
+Changes listed on July 17, 2015 and before are included in the Cypress release
 of Open edX.
 
-************************
-Split Mongo Modulestore
-************************
+.. Confirm date 
 
-The edX Platform now supports the **split mongo** modulestore for course data
-storage. Split mongo refers to the separation of identity, structure, and
-content, and it enables you to use more advanced capabilities in developing and
-managing courses. 
+
+************************************************
+Feedback and Hints in Common Problems
+************************************************
+
+
+************************************************
+Problem Appearance Changes
+************************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/07-01-2015.html#problem-appearance-changes
+
+
+*********************
+Poll and Survey Tools
+*********************
+
+
+
+****************
+Creative Commons
+****************
+
+
+****************
+User Profiles
+****************
+
+
+********
+Cohorts
+********
+
+Admin moved from Studio/advanced settings to instructor dashboard
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/03-25-2015.html
+
+***************************************
+Randomized Content Blocks
+***************************************
+
+***************************************
+Pre-Roll Videos	
+***************************************
+
+***************************************
+Course Certificates
+***************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#building-and-running-an-open-edx-course
+
+***************************************
+HTML Spell Check in Studio
+***************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#spell-check-for-html-components
+
+*********************************************
+Graded and Ungraded Problems in edX Insights
+*********************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-09-2015.html
+
+
+*********************************************
+Insights - All problem parts now combined
+*********************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
+
+
+*********************************************
+Insights - Per Problem Performance Data
+*********************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
+
+*********************************************
+Grade Report Enhancements in the LMS
+*********************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-12-2015.html#enhancements-to-the-grade-report
+
+*********************************************
+Problem Grade Report
+*********************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#problem-grade-report
+
+*********************************************
+Report for Not-Yet Enrolled Students
+*********************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#report-of-not-yet-enrolled-students
+
+***************************************
+Open Response Assessments
+***************************************
+
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/03-18-2015.html
+
+no ORA 1: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/07-08-2015.html#original-ora-problems-deprecated
+
+***************************************
+New Studio Templates
+***************************************
+
+
+************************************************
+Accessibility Updates to Studio and the LMS
+************************************************
+
+
+*************
+New Events
+*************
+
+*************
+APIs
+*************
+
+Course structure:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-15-2015.html
+
+Video data: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#edx-data-analytics-api
+
+Profile images:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#edx-platform-apis
 
 ************************************
 Cohorts for Discussions and Content
