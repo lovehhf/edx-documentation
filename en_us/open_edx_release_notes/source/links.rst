@@ -33,6 +33,8 @@
 
 .. _Enabling Course and Video Licensing: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_licensing.html
 
+.. _Enabling Custom Courses: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_ccx.html
+
 .. Cypress Doc Links
 
 .. _Building and Running an Open edX Course for Cypress: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/index.html
@@ -57,6 +59,18 @@
 .. _Exploring the Profile Page: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/getting_started/dashboard_acctsettings_profile.html#exploring-the-profile-page
 
 .. _Exploring the Profile Page for Learners: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/named-release-cypress/sfd_dashboard_profile/SFD_dashboard_settings_profile.html#exploring-the-profile-page
+
+.. _Including Learner Cohorts: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/cohorts/index.html
+
+.. _Setting Up Course Certificates: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/building_course/creating_course_certificates.html
+
+.. _Interpret the Grade Report: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/running_course/course_grades.html#interpret-the-problem-grade-report
+
+.. _Generate a Problem Grade Report for Enrolled Students: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/running_course/course_grades.html#generate-a-problem-grade-report-for-enrolled-students-all-courses
+
+.. _Enrollment: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/running_course/course_enrollment.html
+
+.. _Creating a Custom Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/building_course/custom_courses.html
 
 .. Birch Links
 

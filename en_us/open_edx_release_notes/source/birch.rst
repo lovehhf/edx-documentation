@@ -52,7 +52,6 @@ your course.
 For more information, see `Specify Prerequisite Courses`_ in the *Building and
 Running an Open edX Course* guide.
 
-
 ********************
 Entrance Exams
 ********************

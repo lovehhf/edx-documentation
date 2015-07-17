@@ -13,10 +13,12 @@ More Information on Cypress Release Changes
 ************************************************
 
 The `edX Release Notes`_ contain a list of weekly changes that are deployed to
-edx.org.
+edx.org. Those changes are part of the master branch of the edX Platform in
+GitHub.
 
-You can also find `release announcements`_ on open.edx.org. You can subscribe
-to have release announcements sent to your email account.
+You can also find `release announcements`_ on open.edx.org, which list changes
+in each release on edx.org. You can subscribe to have release announcements
+sent to your email account.
 
 Changes listed on July 17, 2015 and before are included in the Cypress release
 of Open edX.
@@ -84,6 +86,18 @@ and also choose whether to let learners see the aggregate answers for the
 class.
 
 =====================
+Custom Courses
+=====================
+
+You can create a custom course in the edX platform (CCX) to reuse course content. By using a CCX, you can run some or all of an existing course for a group of students on a new schedule.
+
+For information on enabling CCX in your instance, see `Enabling Custom
+Courses`_ in *Installing, Configuring and Running the Open edX Platform*.
+
+For information on using CCX, see `Creating a Custom Course`_ in *Building and
+Running an Open edX Course*.
+
+=====================
 Creative Commons
 =====================
 
@@ -98,7 +112,7 @@ For more information, see the following documentation:
   Running an Open edX Course*.
 
 * For licensing information for learners, see `Course and Video Licenses`_ in
-  the *Open edX Leanrer's Guide*.
+  the *Open edX Learner's Guide*.
 
 ==========================
 Randomized Content Blocks
@@ -138,51 +152,90 @@ Changes for Course Staff and Learners
 Cohorts
 =========
 
-Admin moved from Studio/advanced settings to instructor dashboard
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/03-25-2015.html
+Cohort creation and management has moved from the **Advanced Settings** page in
+Studio to the Instructor Dashboard in the LMS. Course teams can use the new
+Cohorts tab there to add and rename cohorts, change a cohort’s assignment
+method, associate cohorts with content groups, and specify whether course-wide
+and content-specific discussions are divided by cohort.
+
+For more information, see `Including Learner Cohorts`_ in *Building and Running
+an Open edX Course*.
 
 ==========================
 Course Certificates
 ==========================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#building-and-running-an-open-edx-course
+You can now create one certificate configuration per course to serve as the
+template for certificates issued for all of the enrollment tracks available for
+your course (such as "honor code" or "verified"). Honor code certificates use
+the organization logo and signatory information, but do not include signature
+images, which are used only for verified certificates.
+
+For more information, see `Setting Up Course Certificates`_ in *Building and Running an Open edX Course*.
 
 ==========================
 HTML Spell Check in Studio
 ==========================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#spell-check-for-html-components
-
-==========================
-Mobile Ready Content Types
-==========================
-
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#building-and-running-an-open-edx-course
+When you edit an HTML component in Studio, an automated spell checker indicates
+any misspelled words. The spell checker automatically uses the dictionary that
+is set for your browser.
 
 ======================================
 Problem Appearance Changes
 ======================================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/07-01-2015.html#problem-appearance-changes
-
-
-====================================================
-Grade Report Enhancements in the LMS
-====================================================
-
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-12-2015.html#enhancements-to-the-grade-report
+To make the edX LMS easier to use on mobile devices, the appearance of common
+problem types has changes. For example, a border surrounds options for multiple
+choice and checkbox problems, making it easier for learners to select an
+option.
 
 ==========================
 Problem Grade Report
 ==========================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#problem-grade-report
+For any course, you can now calculate grades for problems and generate a report
+that can be downloaded from the instructor dashboard. This new report includes,
+for each graded problem, a learner’s earned and possible points, and their
+total score, expressed as a decimal. 
+
+For more information, see `Generate a Problem Grade Report for Enrolled
+Students`_ in *Building and Running an Open edX Course*.
+
+====================================================
+Grade Report Enhancements
+====================================================
+
+The grade report now includes new columns with certificate status and
+enrollment track information. When course teams generate the grade report from
+the Instructor Dashboard, they can see the following additional information for
+each learner.
+
+* Enrollment track: honor, verified, or professional education. Verification
+  status, to identify learners in the verified or professional track who have
+  completed identity verification with edX.
+
+* Certificate eligibility status, to identify learners who have earned the
+  passing grade in the course at the time of the grade report generation.
+
+* Certificate delivery status, to identify learners who have received their
+  certificates. The type of certificate, for learners who are eligible to
+  receive a certificate.
+
+For more information, see `Interpret the Grade Report`_ in *Building and
+Running an Open edX Course*.
 
 ====================================================
 Report for Not-Yet Enrolled Students
 ====================================================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#report-of-not-yet-enrolled-students
+Course teams for invitation-only courses can now track enrollment status from
+the Instructor Dashboard. The Data Download page of the Instructor Dashboard
+now includes a downloadable report of learners who have been invited to enroll
+in a course, but who have not yet done so.
+`
+For more information, see the `Enrollment`_ section in *Building and Running an
+Open edX Course*.
 
 ======================================================
 Original Open Response Assessment Problems Depracated
@@ -203,57 +256,57 @@ Assessments`_.
 New Studio Templates
 ==========================
 
+This release includes new templates for HTML and problem components. These
+templates provide updated guidelines and examples, accessibility information,
+and links to documentation.
+
+************************************************
+Accessibility Updates to Studio and the LMS
+************************************************
+
+.. add summary list
 
 ************************
 Changes to edX Insights
 ************************
 
+.. contents::
+ :depth: 1
+ :local:
 
 ====================================================
 Graded and Ungraded Problems in edX Insights
 ====================================================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-09-2015.html
-
+.. check http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-09-2015.html
 
 ====================================================
 Insights - All problem parts now combined
 ====================================================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
-
+.. check http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
 
 ====================================================
 Insights - Per Problem Performance Data
 ====================================================
 
-http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
-
-
-
-
-
+.. check http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
 
 *************
 New Events
 *************
 
-*************
-APIs
-*************
+.. add summary list
 
-Course structure:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-15-2015.html
+*****************
+REST API Changes
+*****************
 
-Video data: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#edx-data-analytics-api
+.. check Course structure:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-15-2015.html
 
-Profile images:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#edx-platform-apis
+.. check Video data: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#edx-data-analytics-api
 
-
-
-
-************************************************
-Accessibility Updates to Studio and the LMS
-************************************************
+.. check Profile images:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#edx-platform-apis
    
 
 .. include:: links.rst
