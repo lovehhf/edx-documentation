@@ -3,13 +3,42 @@
 
 .. _docs.edx.org: http://docs.edx.org
 
-.. _edX Release Notes: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/
+.. Latest Doc Links
 
-.. _Building and Running an Open edX Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/index.html
+.. _edX Release Notes: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/
 
 .. _Installing, Configuring, and Running the edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
 
-.. _edX Developer's Guide: http://edx.readthedocs.org/projects
+.. _Open edX Developer's Guide: http://edx.readthedocs.org/projects
+
+.. _Open edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+
+.. _EdX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/
+
+.. _EdX XBlock API Guide: http://edx.readthedocs.org/projects/xblock/en/latest/
+  
+.. _EdX Open Learning XML Guide: http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/
+
+.. _Open edX Platform APIs: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/
+
+.. _Mobile API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/
+
+.. _Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/
+
+.. _Building and Running an Open edX Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/index.html
+
+.. _Open edX Learner's Guide: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/index.html
+
+.. Cypress Doc Links
+
+.. _Building and Running an Open edX Course for Cypress: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/index.html
+
+.. _Open edX Learner's Guide for Cypress: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/named-release-cypress/index.html
+
+
+.. Birch Links
+
+.. _Building and Running an Open edX Course for Birch: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/index.html
 
 .. _Including Student Cohorts: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/cohorts/index.html
 
@@ -27,11 +56,9 @@
 
 .. _Google Drive Files Tool: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/exercises_tools/google_docs.html
 
-.. _Mobile API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/
 
-.. _Enrollment API: http://edx.readthedocs.org/projects/edx-enrollment-api/en/latest/
 
-.. _Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+
 
 .. _Sphinx: http://sphinx-doc.org/
 .. _LaTeX: http://www.latex-project.org/
