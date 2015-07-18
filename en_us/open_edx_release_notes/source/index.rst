@@ -7,7 +7,7 @@ releases.
 
 .. toctree::
    :numbered:
-   :maxdepth: 1
+   :maxdepth: 2
 
    front_matter/index
    os_documentation

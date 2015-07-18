@@ -1,3 +1,5 @@
+.. _Open edX Cypress Release:
+
 ####################################
 Open edX Cypress Release
 ####################################
@@ -20,14 +22,14 @@ You can also find `release announcements`_ on open.edx.org, which list changes
 in each release on edx.org. You can subscribe to have release announcements
 sent to your email account.
 
-Changes listed on July 17, 2015 and before are included in the Cypress release
-of Open edX.
-
-.. Confirm date 
+Changes listed on July 8, 2015 and before are included in the Cypress release
+of Open edX. 
 
 **************
 New Features
 **************
+
+The following new features are included in the Open edX Cypress release.
 
 .. contents::
  :depth: 1
@@ -89,7 +91,9 @@ class.
 Custom Courses
 =====================
 
-You can create a custom course in the edX platform (CCX) to reuse course content. By using a CCX, you can run some or all of an existing course for a group of students on a new schedule.
+You can create a custom course in the edX platform (CCX) to reuse course
+content. By using a CCX, you can run some or all of an existing course for a
+group of students on a new schedule.
 
 For information on enabling CCX in your instance, see `Enabling Custom
 Courses`_ in *Installing, Configuring and Running the Open edX Platform*.
@@ -101,9 +105,11 @@ Running an Open edX Course*.
 Creative Commons
 =====================
 
-Course teams can now specify either "All Rights Reserved" or a Creative Commons license for course content as a whole as well as for each individual video in the course. 
+Course teams can now specify either "All Rights Reserved" or a Creative Commons
+license for course content as a whole as well as for each individual video in
+the course.
 
-For more information, see the following documentation:
+For more information, see the following documentation.
 
 * For configuring your Open edX instance, see `Enabling Course and Video
   Licensing`_ in *Installing, Configuring, and Running the Open edX Platform*.
@@ -113,6 +119,30 @@ For more information, see the following documentation:
 
 * For licensing information for learners, see `Course and Video Licenses`_ in
   the *Open edX Learner's Guide*.
+
+==========================
+Course Search
+==========================
+
+Learners can now search much of the content of your Open edX courses, including
+the course title, description, text, and video transcripts. Learners can search
+for a term in an individual course, or for that term in all of the courses that
+the learner is enrolled in, whether the course is active or archived. 
+
+When the search engine returns results, either for an individual course or
+across all courses, you can select any search result to view that result in the
+courseware.
+
+For more information, see the following documentation.
+
+* For enabling course search on your instance of Open edX, see `Enable Course
+  Search`_.
+
+* For information on setting up a course for learners to be able to search its
+  content, see `Course Search`_.
+
+* For information for learners about searching courses, see `Searching the
+  Course`_.
 
 ==========================
 Randomized Content Blocks
@@ -127,14 +157,14 @@ an organization’s course teams can work collaboratively to develop the problem
 that the libraries contain. Each library can then be referenced by randomized
 content blocks in any of that organization’s courses. 
 
-For more information, see `Working with Libraries`_ *Building and Running an
+For more information, see `Working with Libraries`_ in *Building and Running an
 Open edX Course*.
 
 =====================
-User Profiles
+Learner Profiles
 =====================
 
-With the new Open edX User Profile, you can share information about yourself
+With the new Open edX Learner Profile, you can share information about yourself
 with your learning community. Your profile can include an image that identifies
 you on the Open edX site as well as your location and other biographical
 information. Course teams and other learners in your courses can view your
@@ -185,10 +215,10 @@ is set for your browser.
 Problem Appearance Changes
 ======================================
 
-To make the edX LMS easier to use on mobile devices, the appearance of common
-problem types has changes. For example, a border surrounds options for multiple
-choice and checkbox problems, making it easier for learners to select an
-option.
+To make the Open edX LMS easier to use on mobile devices, the appearance of
+common problem types has changed. For example, a border surrounds options for
+multiple choice and checkbox problems, making it easier for learners to select
+an option.
 
 ==========================
 Problem Grade Report
@@ -238,7 +268,7 @@ For more information, see the `Enrollment`_ section in *Building and Running an
 Open edX Course*.
 
 ======================================================
-Original Open Response Assessment Problems Depracated
+Original Open Response Assessment Problems Deprecated
 ======================================================
 
 When you access a course that contains an open response assessment created

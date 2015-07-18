@@ -9,9 +9,9 @@
 
 .. _edX Release Notes: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/
 
-.. _Installing, Configuring, and Running the edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
+.. _Installing, Configuring, and Running the Open edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
 
-.. _Open edX Developer's Guide: http://edx.readthedocs.org/projects
+.. _Open edX Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
 
 .. _Open edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
 
@@ -31,16 +31,19 @@
 
 .. _Open edX Learner's Guide: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/index.html
 
-.. _Enabling Course and Video Licensing: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_licensing.html
-
-.. _Enabling Custom Courses: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_ccx.html
-
 .. Cypress Doc Links
+
+.. _Enabling Course and Video Licensing: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/enable_licensing.html
+
+.. _Enabling Custom Courses: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/enable_ccx.html
+
+.. _Searching the Course: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/named-release-cypress/SFD_course_search.html
+
+.. _Installing, Configuring, and Running the Open edX Platform Cypress Release: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/
 
 .. _Building and Running an Open edX Course for Cypress: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/index.html
 
 .. _Open edX Learner's Guide for Cypress: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/named-release-cypress/index.html
-
 
 .. _Open Response Assessments: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/exercises_tools/open_response_assessments/index.html
 
@@ -72,6 +75,10 @@
 
 .. _Creating a Custom Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/building_course/custom_courses.html
 
+.. _Enable Course Search: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/edx_search.html
+
+.. _Course Search: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-cypress/building_course/search_course.html
+
 .. Birch Links
 
 .. _Building and Running an Open edX Course for Birch: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/index.html
@@ -91,9 +98,6 @@
 .. _Google Calendar Tool: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/exercises_tools/google_calendar.html
 
 .. _Google Drive Files Tool: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/exercises_tools/google_docs.html
-
-
-
 
 
 .. _Sphinx: http://sphinx-doc.org/

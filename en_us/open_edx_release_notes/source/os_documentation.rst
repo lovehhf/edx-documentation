@@ -10,7 +10,7 @@ Cypress Release Documentation
 
 The following documentation is available for the Open edX Cypress release:
 
-* `Installing, Configuring, and Running the edX Platform`_
+* `Installing, Configuring, and Running the Open edX Platform Cypress Release`_
 
 * `Building and Running an Open edX Course for Cypress`_
   
@@ -27,7 +27,7 @@ of the following documents for Open edX users.
   The latest versions of these documents might contain changes related
   to functionality that is not present in the Cypress release.
 
-* `Installing, Configuring, and Running the edX Platform`_
+* `Installing, Configuring, and Running the Open edX Platform`_
 
 * `Building and Running an Open edX Course`_
   

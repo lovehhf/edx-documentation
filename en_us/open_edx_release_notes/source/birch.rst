@@ -2,14 +2,16 @@
 Open edX Birch Release
 ####################################
 
-The Birch release of the Open edX Platform includes many new features, from new
-capabilities to APIs.
+This page lists the highlights of the Cypress release.
 
-This page lists the highlights of the Birch release.
+.. note::
+ With the :ref:`Open edX Cypress Release`, the Birch release is no longer
+ supported. This page remains in these release notes as a record of when new
+ features were included in Open edX.
 
-Also see the `edX Release Notes`_, which contain a list of weekly changes.
-Changes listed on January 28, 2015 and before are included in the Birch release
-of Open edX.
+.. contents::
+ :depth: 1
+ :local:
 
 ************************
 Split Mongo Modulestore
@@ -101,11 +103,11 @@ Support for Graded Problems in Content Experiments
 Content experiments can now include graded problems.
 
 ********** 
-ReST APIs
+REST APIs
 **********
 
 EdX has built and published documentation for the first versions of several
-APIs: 
+REST APIs: 
 
 * `Mobile API`_
 * `Enrollment API`_
