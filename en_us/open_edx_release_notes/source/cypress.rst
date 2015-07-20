@@ -280,31 +280,7 @@ Accessibility Updates to Studio and the LMS
 
 .. add summary list
 
-************************
-Changes to edX Insights
-************************
 
-.. contents::
- :depth: 1
- :local:
-
-====================================================
-Graded and Ungraded Problems in edX Insights
-====================================================
-
-.. check http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-09-2015.html
-
-====================================================
-Insights - All problem parts now combined
-====================================================
-
-.. check http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
-
-====================================================
-Insights - Per Problem Performance Data
-====================================================
-
-.. check http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-23-2015.html#all-problem-parts-now-combined
 
 *************
 New Events
