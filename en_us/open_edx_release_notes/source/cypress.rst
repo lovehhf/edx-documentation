@@ -274,53 +274,6 @@ This release includes new templates for HTML and problem components. These
 templates provide updated guidelines and examples, accessibility information,
 and links to documentation.
 
-************************************************
-Accessibility Updates to Studio and the LMS
-************************************************
-
-.. add summary list
-
-
-
-*************
-New Events
-*************
-
-The following list includes new or changed events in the Open edX Cypress
-release.
-
-* The `context` field for server events now provides a `usage_key` to identify
-  XBlock content. The `usage_key` member field was added to the
-  `module` dictionary, which also provides the component `display_name`.
-
-* Events now include data from two HTTP header fields, `referrer` and
-  `accept_language`.
-
-* There are new events that record new posts, responses, and comments in course
-  discussions.
-
-* There are new events that record which of the problems in a library were
-  delivered by a randomized content block component.
-
-* Two instructor events have been added for generating and downloading reports
-  from the Instructor Dashboard.
-
-  * `edx.instructor.report.downloaded`
-  * `edx.instructor.report.requested`
-
-* The following events are now emitted when learners interact with polls and
-  surveys.
-
-  * `xblock.poll.submitted`
-  * `xblock.poll.view_results`
-  * `xblock.survey.submitted`
-  * `xblock.survey.view_results`
-
-For more information about events, see `Events in Tracking Logs`_ in the *edX
-Research Guide*. Note that this document is intended for edX partners running
-courses on edx.org. However, the event listing applies to Open edX instances as
-well.
-
 *****************
 REST API Changes
 *****************
@@ -332,6 +285,113 @@ EdX has built and published documentation for the following REST APIs, which are
 * `User API Version 1.0`_
 
 * `Profile Images API Version 1.0`_
+
+*************
+New Events
+*************
+
+The following list includes new or changed events in the Open edX Cypress
+release.
+
+* The ``context`` field for server events now provides a ``usage_key`` to
+  identify XBlock content. The ``usage_key`` member field was added to the
+  ``module`` dictionary, which also provides the component ``display_name``.
+
+* Events now include data from two HTTP header fields, ``referrer`` and
+  ``accept_language``.
+
+* There are new events that record new posts, responses, and comments in course
+  discussions.
+
+* There are new events that record which of the problems in a library were
+  delivered by a randomized content block component.
+
+* Two instructor events have been added for generating and downloading reports
+  from the Instructor Dashboard.
+
+  * ``edx.instructor.report.downloaded``
+  * ``edx.instructor.report.requested``
+
+* The following events are now emitted when learners interact with polls and
+  surveys.
+
+  * ``xblock.poll.submitted``
+  * ``xblock.poll.view_results``
+  * ``xblock.survey.submitted``
+  * ``xblock.survey.view_results``
+
+For more information about events, see `Events in Tracking Logs`_ in the *edX
+Research Guide*. Note that this document is intended for edX partners running
+courses on edx.org. However, the event listing applies to Open edX instances as
+well.
+
+************************************************
+Accessibility Updates
+************************************************
+
+In keeping with edX's commitment to creating accessible content for everyone,
+everywhere, the Open edX Cypress release contains several accessibility
+enhancements in the Open edX LMS and discussions.
+
+* Keyboard navigation in open response assessments has been improved by
+  restoring keyboard focus outline indicators.
+  
+* The LMS now has a region with a role of main and a descriptive aria-label
+  allowing users to quickly navigate to the main content area using landmarks.
+  
+* The My Profile page now offers improved accessibility for learners who want
+  to add or change their profile images.
+
+* Several accessibility problems with numerical input problem types are now
+  corrected.
+
+* The current status of the problem is now conveyed to screen reader users
+  properly.
+
+* The workflow for checking how ASCII math is converted to MathML or MathJax
+  format has been streamlined for screen reader users.
+  
+* Nonessential information is no longer included in aria-live regions, which
+  improves the experience for screen reader users.
+
+* Improvements to the accessibility of discussion posts to screen reader users
+  are included in this release.
+
+* HTML ``iframe`` elements now show meaningful title attributes that describe
+  the content embedded in the IFrame.
+
+* The main blue colors used throughout the LMS user interface
+  were changed to meet WCAG AA guidelines for contrast.
+
+* The LMS now includes a aria-live region to contain HTML for problems. 
+
+* Submission buttons have been removed from the aria-live div scope.
+
+* Several accessibility fixes have been implemented in the course header.
+
+* An aria label has been added to the LMS footer.
+
+* The main region in the Student dashboard now includes the role and aria-
+  label attributes.
+
+* Navigation controls in the LMS now have aria-label attributes.
+
+* Focus now changes directly to the content area after the user selects a link
+  to a new subsection or unit.
+
+* Unit navigation links are reorganized into a single list. The arrow
+  navigation is converted from links to buttons and now includes the disabled
+  attribute when appropriate.
+
+* Labels to bypass blocks now use the industry standard text **Skip to main
+  content**.
+
+* The current discussion conversation now receives focus and includes an
+  accessible label.
+
+* Discussions now include defined regions and landmarks for screen reader
+  navigation. The focus is on the discussion when a new topic is loaded, and
+  changes to a new post when it appears.
 
 ************************************************
 More Information on Cypress Release Changes
