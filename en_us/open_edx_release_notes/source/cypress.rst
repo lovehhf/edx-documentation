@@ -316,8 +316,8 @@ release.
   * `xblock.survey.submitted`
   * `xblock.survey.view_results`
 
-For more information about events, see _`Events in Tracking Logs` in the *edX
-Research Guide`. Note that this document is intended for edX partners running
+For more information about events, see `Events in Tracking Logs`_ in the *edX
+Research Guide*. Note that this document is intended for edX partners running
 courses on edx.org. However, the event listing applies to Open edX instances as
 well.
 
@@ -325,13 +325,13 @@ well.
 REST API Changes
 *****************
 
-.. check Course structure:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/04-15-2015.html
+EdX has built and published documentation for the following REST APIs, which are available in the Open edX Cypress release.
 
-.. check Video data: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#edx-data-analytics-api
+* `Course Structure API Version 0`_
 
-.. check Profile images:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#edx-platform-apis
+* `User API Version 1.0`_
 
-
+* `Profile Images API Version 1.0`_
 
 ************************************************
 More Information on Cypress Release Changes

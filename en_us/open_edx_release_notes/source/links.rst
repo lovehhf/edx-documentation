@@ -27,11 +27,17 @@
 
 .. _Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/
 
+.. _Course Structure API Version 0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/course_structure/index.html
+
 .. _Building and Running an Open edX Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/index.html
 
 .. _Open edX Learner's Guide: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/index.html
 
 .. _Events in Tracking Logs: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html
+
+.. _User API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/user/index.html
+
+.. _Profile Images API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/profile_images/index.html
 
 .. Cypress Doc Links
 
