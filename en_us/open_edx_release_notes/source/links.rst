@@ -31,6 +31,8 @@
 
 .. _Open edX Learner's Guide: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/index.html
 
+.. _Events in Tracking Logs: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html
+
 .. Cypress Doc Links
 
 .. _Enabling Course and Video Licensing: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/enable_licensing.html

@@ -286,7 +286,40 @@ Accessibility Updates to Studio and the LMS
 New Events
 *************
 
-.. add summary list
+The following list includes new or changed events in the Open edX Cypress
+release.
+
+* The `context` field for server events now provides a `usage_key` to identify
+  XBlock content. The `usage_key` member field was added to the
+  `module` dictionary, which also provides the component `display_name`.
+
+* Events now include data from two HTTP header fields, `referrer` and
+  `accept_language`.
+
+* There are new events that record new posts, responses, and comments in course
+  discussions.
+
+* There are new events that record which of the problems in a library were
+  delivered by a randomized content block component.
+
+* Two instructor events have been added for generating and downloading reports
+  from the Instructor Dashboard.
+
+  * `edx.instructor.report.downloaded`
+  * `edx.instructor.report.requested`
+
+* The following events are now emitted when learners interact with polls and
+  surveys.
+
+  * `xblock.poll.submitted`
+  * `xblock.poll.view_results`
+  * `xblock.survey.submitted`
+  * `xblock.survey.view_results`
+
+For more information about events, see _`Events in Tracking Logs` in the *edX
+Research Guide`. Note that this document is intended for edX partners running
+courses on edx.org. However, the event listing applies to Open edX instances as
+well.
 
 *****************
 REST API Changes
@@ -297,6 +330,8 @@ REST API Changes
 .. check Video data: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#edx-data-analytics-api
 
 .. check Profile images:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#edx-platform-apis
+
+
 
 ************************************************
 More Information on Cypress Release Changes
