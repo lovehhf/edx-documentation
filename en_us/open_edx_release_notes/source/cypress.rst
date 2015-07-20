@@ -10,20 +10,6 @@ This page lists the highlights of the Cypress release.
  :depth: 1
  :local:
 
-************************************************
-More Information on Cypress Release Changes
-************************************************
-
-The `edX Release Notes`_ contain a list of weekly changes that are deployed to
-edx.org. Those changes are part of the master branch of the edX Platform in
-GitHub.
-
-You can also find `release announcements`_ on open.edx.org, which list changes
-in each release on edx.org. You can subscribe to have release announcements
-sent to your email account.
-
-Changes listed on July 8, 2015 and before are included in the Cypress release
-of Open edX. 
 
 **************
 New Features
@@ -51,7 +37,8 @@ TBP
 Feedback and Hints in Common Problems
 ======================================
 
-You can now add feedback, hints, or both to the following problem types.
+Course teams can now add feedback, hints, or both to the following problem
+types.
 
 * Checkbox
 * Dropdown
@@ -59,8 +46,8 @@ You can now add feedback, hints, or both to the following problem types.
 * Numerical input
 * Text input
 
-In Studio, you can use new templates to add sample problems that use the
-feedback and hint syntax.
+In Studio, course teams can use new templates to add sample problems that use
+the feedback and hint syntax.
 
 For more information, see `Adding Feedback and Hints to a Problem`_ in
 *Building and Running an Open edX Course*.
@@ -69,7 +56,7 @@ For more information, see `Adding Feedback and Hints to a Problem`_ in
 Poll and Survey Tools
 =====================
 
-You can now include two new types of components in your courses.
+Course teams can now include two new types of components in your courses.
 
 * Use the Poll tool to pose a question to learners and have them select an
   answer from a set list.
@@ -83,17 +70,17 @@ You can now include two new types of components in your courses.
   For more information, see `Survey Tool`_ in *Building and Running an Open edX
   Course*.
 
-When you include polls and surveys in a course, you can analyze the responses
-and also choose whether to let learners see the aggregate answers for the
-class.
+When polls and surveys are included in a course, course teams can analyze the
+responses and also choose whether to let learners see the aggregate answers for
+the class.
 
 =====================
 Custom Courses
 =====================
 
-You can create a custom course in the edX platform (CCX) to reuse course
-content. By using a CCX, you can run some or all of an existing course for a
-group of students on a new schedule.
+Course teams can create a custom course in the edX platform (CCX) to reuse
+course content. By using a CCX, course teams can run some or all of an existing
+course for a group of students on a new schedule.
 
 For information on enabling CCX in your instance, see `Enabling Custom
 Courses`_ in *Installing, Configuring and Running the Open edX Platform*.
@@ -106,8 +93,8 @@ Creative Commons
 =====================
 
 Course teams can now specify either "All Rights Reserved" or a Creative Commons
-license for course content as a whole as well as for each individual video in
-the course.
+license for a course. Course teams can also select different license options
+for each video.
 
 For more information, see the following documentation.
 
@@ -136,13 +123,13 @@ courseware.
 For more information, see the following documentation.
 
 * For enabling course search on your instance of Open edX, see `Enable Course
-  Search`_.
+  Search`_ in *Installing, Configuring, and Running the Open edX Platform*.
 
 * For information on setting up a course for learners to be able to search its
-  content, see `Course Search`_.
+  content, see `Course Search`_ in *Building and Running an Open edX Course*.
 
 * For information for learners about searching courses, see `Searching the
-  Course`_.
+  Course`_ in the *Open edX Learner's Guide*.
 
 ==========================
 Randomized Content Blocks
@@ -152,10 +139,10 @@ Course teams can now include a new type of component, a randomized content
 block, in their courses. These components randomly draw problems from a
 predefined library of components and present them to learners.
 
-You create and maintain libraries of components separately from courses. All of
-an organization’s course teams can work collaboratively to develop the problems
-that the libraries contain. Each library can then be referenced by randomized
-content blocks in any of that organization’s courses. 
+Course teams create and maintain libraries of components separately from
+courses. All of an organization's course teams can work collaboratively to
+develop the problems that the libraries contain. Each library can then be
+referenced by randomized content blocks in any of that organization's courses.
 
 For more information, see `Working with Libraries`_ in *Building and Running an
 Open edX Course*.
@@ -174,17 +161,13 @@ For more information, see `Exploring the Profile Page`_ in *Building and
 Running an Open edX Course* and `Exploring the Profile Page for Learners`_ in
 the *Open edX Learner's Guide*.
 
-*************************************
-Changes for Course Staff and Learners
-*************************************
-
 =========
 Cohorts
 =========
 
 Cohort creation and management has moved from the **Advanced Settings** page in
 Studio to the Instructor Dashboard in the LMS. Course teams can use the new
-Cohorts tab there to add and rename cohorts, change a cohort’s assignment
+Cohorts tab there to add and rename cohorts, change a cohort's assignment
 method, associate cohorts with content groups, and specify whether course-wide
 and content-specific discussions are divided by cohort.
 
@@ -201,7 +184,8 @@ your course (such as "honor code" or "verified"). Honor code certificates use
 the organization logo and signatory information, but do not include signature
 images, which are used only for verified certificates.
 
-For more information, see `Setting Up Course Certificates`_ in *Building and Running an Open edX Course*.
+For more information, see `Setting Up Course Certificates`_ in *Building and
+Running an Open edX Course*.
 
 ==========================
 HTML Spell Check in Studio
@@ -217,17 +201,17 @@ Problem Appearance Changes
 
 To make the Open edX LMS easier to use on mobile devices, the appearance of
 common problem types has changed. For example, a border surrounds options for
-multiple choice and checkbox problems, making it easier for learners to select
-an option.
+multiple choice and checkbox problems, and the entire area within the border is
+selectable, making it easier for learners to select an option.
 
 ==========================
 Problem Grade Report
 ==========================
 
-For any course, you can now calculate grades for problems and generate a report
-that can be downloaded from the instructor dashboard. This new report includes,
-for each graded problem, a learner’s earned and possible points, and their
-total score, expressed as a decimal. 
+For any course, course teams can now calculate grades for problems and generate
+a report that can be downloaded from the instructor dashboard. This new report
+includes, for each graded problem, a learner's earned and possible points, and
+their total score, expressed as a decimal.
 
 For more information, see `Generate a Problem Grade Report for Enrolled
 Students`_ in *Building and Running an Open edX Course*.
@@ -256,7 +240,7 @@ For more information, see `Interpret the Grade Report`_ in *Building and
 Running an Open edX Course*.
 
 ====================================================
-Report for Not-Yet Enrolled Students
+Report of Not-Yet Enrolled Students
 ====================================================
 
 Course teams for invitation-only courses can now track enrollment status from
@@ -337,6 +321,20 @@ REST API Changes
 .. check Video data: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/05-19-2015.html#edx-data-analytics-api
 
 .. check Profile images:  http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2015/06-10-2015.html#edx-platform-apis
-   
+
+************************************************
+More Information on Cypress Release Changes
+************************************************
+
+The `edX Release Notes`_ contain a list of weekly changes that are deployed to
+edx.org. Those changes are part of the master branch of the edX Platform in
+GitHub.
+
+You can also find `release announcements`_ on open.edx.org, which list changes
+in each release on edx.org. You can subscribe to have release announcements
+sent to your email account.
+
+Changes listed on July 8, 2015 and before are included in the Cypress release
+of Open edX. 
 
 .. include:: links.rst

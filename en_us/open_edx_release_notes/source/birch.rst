@@ -2,7 +2,7 @@
 Open edX Birch Release
 ####################################
 
-This page lists the highlights of the Cypress release.
+This page lists the highlights of the Birch release.
 
 .. note::
  With the :ref:`Open edX Cypress Release`, the Birch release is no longer

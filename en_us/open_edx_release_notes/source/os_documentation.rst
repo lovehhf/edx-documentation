@@ -2,13 +2,13 @@
 Open edX Documentation
 ####################################
 
-All Open edX Documentation is available at `docs.edx.org`_.
+All Open edX documentation is available at `docs.edx.org`_.
 
 *******************************
 Cypress Release Documentation
 *******************************
 
-The following documentation is available for the Open edX Cypress release:
+The following documentation is available for the Open edX Cypress release.
 
 * `Installing, Configuring, and Running the Open edX Platform Cypress Release`_
 
@@ -20,7 +20,7 @@ The following documentation is available for the Open edX Cypress release:
 Latest Documentation
 *******************************
 
-In addition to the Cypress documentation, EdX also maintains the latest version
+In addition to the Cypress documentation, edX also maintains the latest version
 of the following documents for Open edX users.
 
 .. note:: 
