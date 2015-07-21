@@ -1,6 +1,3 @@
-To register an account on the edx.org or edX Edge website, go to the `edx.org
-registration`_ or `Edge registration`_ page, and then follow these steps.
-
 #. Optionally, select one of your existing accounts.
 
   - On edx.org, you can select your Facebook or Google account.
@@ -33,7 +30,3 @@ registration`_ or `Edge registration`_ page, and then follow these steps.
 
 You can modify your account information, reset your password, and link or
 unlink accounts on the :ref:`account settings<SFD Account Settings>` page. 
-
-
-.. _Edge registration: http://edge.edx.org/register
-.. _edx.org registration: https://courses.edx.org/register

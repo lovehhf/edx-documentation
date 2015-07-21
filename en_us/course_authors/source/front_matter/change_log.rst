@@ -23,7 +23,7 @@ July 2015
    * - Date
      - Change
    * - nn July 2015
-     - Added information about signing in with campus credentials to the
+     - Added information about using campus credentials to sign in to the
        :ref:`Getting Started with edX` section.
    * - 17 July 2015
      - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.

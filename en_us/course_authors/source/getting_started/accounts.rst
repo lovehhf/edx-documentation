@@ -4,16 +4,16 @@
 Getting Started with edX
 #############################
 
-The following sections provide an introduction to edX and instructions for
+The following topics provide an introduction to edX and instructions for
 getting started on edX websites.
 
-* :ref:`edX.org and edX Edge`
-* :ref:`Create an Account`
-* :ref:`edX101_section`
+.. contents::
+ :local:
+ :depth: 1
 
-This information is intended for course team members. The *EdX Learner's Guide*
-also includes information about creating an account and the edX Demo course.
-You might want to share course- or institution-specific details about the
+This information is intended for course teams. The *EdX Learner's Guide* also
+includes information about creating an account and the edX Demo course. You
+might want to share course- or institution-specific details about the
 registration process, such as password policies or the use of campus
 credentials, in your communications with prospective students.
 
@@ -54,9 +54,6 @@ similar, but their content and purposes are different.
  want to use both edx.org and Edge, you must complete the account registration
  process on both sites.
 
-.. _Edge: http://edge.edx.org
-.. _edX.org: http://edx.org
-
 .. _Create an Account:
 
 *************************
@@ -66,11 +63,15 @@ Create an Account
 Before you create, or register, your account, note the following.
 
 * If you are at an edX partner institution, be sure to supply your
-  institutional email address.
+  institutional email address, or select an existing account (such as a campus
+  account) that is set up to use your institutional email address.
 
 * Learners and other course team members see the name that you enter as your
-  public username in the LMS, not the full name that your enter. You cannot
-  change your public username after you register.
+  public username in the LMS, not your full name. You cannot change your public
+  username after you register.
+
+To register an account on the edx.org or edX Edge website, go to the `edx.org
+registration`_ or `Edge registration`_ page, and then follow these steps.
 
 .. include:: ../../../shared/students/Section_register_account.rst
 
@@ -100,5 +101,8 @@ to help familiarize you with taking and creating edX courses.
   your own online course.
 
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
-
 .. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
+.. _Edge: http://edge.edx.org
+.. _edX.org: http://edx.org
+.. _Edge registration: http://edge.edx.org/register
+.. _edx.org registration: https://courses.edx.org/register
