@@ -68,8 +68,9 @@ For example, you might add the following information to your
 Configure User Attributes
 =============================
 
-You work with the edX DevOps team to ensure that your provider asserts the user
-information that you want learners to see during initial sign in on edX Edge.
+You work with the edX DevOps team to ensure that your identity provider asserts
+the user information that you want learners to see during initial sign in on
+edX Edge.
 
 Selecting User Attributes to Assert
 ************************************
@@ -126,9 +127,34 @@ the following information to edX.
   configure user attributes effectively, see :ref:`Configure User
   Attributes`.
 
+The edX DevOps team notifies you when integration with your IdP is complete.
+
+.. Feanil ^^ ok to say?
+
+========================
+Test Edge Registration
+========================
+
+To verify that users can use their campus or institutional credentials for your
+IdP to sign in to Edge, follow these steps.
+
+#. Go to the `Edge registration`_ page. The page should include the
+   institutional sign in button.
+
+   .. image:: ../Images/tpa_signin.png
+     :alt: Screen shot of an LMS sign in page with a button labeled "Use my
+         institutional/campus credentials" at the bottom.
+
+#. Select **Use my institutional/campus credentials**. The list of providers
+   that appears should include your IdP.
+   
+   .. image:: ../Images/tpa_inst_list.png
+     :alt: Screen shot of the list of enabled IdPs. Each IdP name is linked to
+         the sign in page for the corresponding authentication system.
 
 .. future: other SAML2-compliant identity providers
 .. Alison 15 Jul 2015
 
 
 .. _XML file: https://edge.edx.org/auth/saml/metadata.xml
+.. _Edge registration: http://edge.edx.org/register
