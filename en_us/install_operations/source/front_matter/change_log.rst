@@ -10,6 +10,8 @@ Change Log
      - Change
    * - 31 July 2015
      - Added the :ref:`Open edX Cypress Release` section.
+   * -
+     - Added the :ref:`YouTube_API` section.
    * - 16 June 2015
      - Added the :ref:`Enable CCX` section.
    * - 8 June 2015

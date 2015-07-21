@@ -19,4 +19,4 @@ options.
    enable_certificates
    enable_badging
    enable_ccx
-
+   youtube_api
