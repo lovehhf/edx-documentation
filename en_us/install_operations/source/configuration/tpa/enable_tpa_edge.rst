@@ -12,7 +12,7 @@ to authenticate into edX Edge. This procedure requires collaboration between
 the edX development operations team and members of the development operations
 or IT teams at the partner institution.
 
-.. future: add xref to section describing complete open edX procedures
+.. future: add xref to section that describes complete open edX procedures
 .. Alison 15 Jul 2015
 
 .. contents::
@@ -33,12 +33,12 @@ institution is an identity provider that securely asserts the identity and
 access rights of a set of users. EdX is the service provider that allows the
 users access on the basis of those credentials.
 
+These steps should be performed by a member of your institution's IT team who
+is familiar with your institutional Shibboleth system.
+
 =======================================
 Obtain edX Edge SAML Metadata
 =======================================
-
-This step can be performed by someone at your institution who has a user
-account on edX Edge.
 
 The SAML metadata for Edge is available in an `XML file`_ on the Edge website.
 The elements in this file provide values required to identify service providers
@@ -48,13 +48,11 @@ by your campus Shibboleth system.
 Add edX Edge as a Service Provider
 ============================================
 
-This step should be performed by a member of your IT team who works with your
-institutional Shibboleth system.
-
 On your Shibboleth system, use the SAML metadata obtained from the XML file to
 add edX Edge to your whitelist of allowed service providers.
 
-For example, you might add the following information to your ``$IDP_HOME/conf/relying-party.xml`` file. 
+For example, you might add the following information to your 
+``$IDP_HOME/conf/relying-party.xml`` file. 
 
 .. code:: xml
 
@@ -78,9 +76,9 @@ Selecting User Attributes to Assert
 
 By default, the edX platform uses these attributes if provided by your system.
 
-* User identifier: ``userid``, ``urn:oid:0.9.2342.19200300.100.1.1``. This
-  value is not displayed to users, but is used to associate the user's edX
-  account with the campus account. A user identifier is required.
+* User identifier: ``userid``, ``urn:oid:0.9.2342.19200300.100.1.1``.
+  Required. This value is used to associate the user's edX account with the
+  campus account. It is not displayed to users.
 * Full name: ``commonName``, ``urn:oid:2.5.4.3``
 * First name: ``givenName``, ``urn:oid:2.5.4.42``
 * Last name: ``surname``, ``urn:oid:2.5.4.4``
@@ -113,13 +111,8 @@ use to determine access rights.
 Send Shibboleth Configuration Data to edX
 ======================================================
 
-This step should be performed by a member of your IT team who works with your
-institutional Shibboleth system.
-
 To complete the integration between your Shibboleth system and Edge, send
 the following information to edX.
-
-.. ^^ to whom and in what manner? email or JIRA story to devops? phone call to PM?
 
 * Metadata: The URL for your Shibboleth metadata XML file. 
 
