@@ -15,6 +15,7 @@
 .. _Ease: https://github.com/edx/ease
 .. _VirtualBox Guest Editions: http://www.virtualbox.org/manual/ch04.html
 .. _Vagrant documentation: http://docs.vagrantup.com/v2/
+.. _Ansible: http://docs.ansible.com/ansible/index.html
 
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
@@ -48,7 +49,7 @@
 
 .. _Enable Google Drive Files in edX Studio: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/exercises_tools/google_docs.html#enable-google-drive-files-in-your-course
 
-.. mobile: 
+.. mobile:
 
 .. _iOS: http://github.com/edx/edx-app-ios
 .. _Android: http://github.com/edx/edx-app-android
