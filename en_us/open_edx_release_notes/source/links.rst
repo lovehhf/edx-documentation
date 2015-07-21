@@ -41,6 +41,10 @@
 
 .. Cypress Doc Links
 
+.. _Version 3 of the YouTube API: https://developers.google.com/youtube/v3/
+
+.. _Set YouTube API Key: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/youtube_api.html
+
 .. _Enabling Course and Video Licensing: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/enable_licensing.html
 
 .. _Enabling Custom Courses: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/enable_ccx.html

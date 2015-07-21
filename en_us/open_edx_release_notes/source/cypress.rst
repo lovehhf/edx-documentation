@@ -281,11 +281,25 @@ Uploading Files to Backends Other than S3
 
 TBP
 
+==========================================
+YouTube API 3.0 API Key
+==========================================
+
+The Open edX Platform uses `Version 3 of the YouTube API`_, which requires that
+the application uses an API key.
+
+If you intend for courses on your Open edX instance to include videos that are
+hosted on YouTube, you must get a YouTube API key and set the key in the Open
+edX Platform.
+
+For more information, see `Set YouTube API Key`_.
+
 *****************
 REST API Changes
 *****************
 
-EdX has built and published documentation for the following REST APIs, which are available in the Open edX Cypress release.
+EdX has built and published documentation for the following REST APIs, which
+are available in the Open edX Cypress release.
 
 * `Course Structure API Version 0`_
 
