@@ -3,8 +3,18 @@
 .. _Enable Licensing:
 
 ####################################
-Enabling Course and Video Licensing
+Enable Course and Video Licensing
 ####################################
+
+This section describes how to enable licensing in your instance of Open edX.
+
+.. contents::
+   :local:
+   :depth: 1
+
+*********
+Overview
+*********
 
 Course teams can specify licensing options for course content as well as for
 each video in a course.

@@ -6,8 +6,11 @@
 Open edX Birch Release
 ########################################
 
-.. contents:: Chapter Contents:
+This section describes how to install the Open edX Birch release.
 
+.. contents::
+ :local:
+ :depth: 1
 
 ******************************
 What's Included in Birch

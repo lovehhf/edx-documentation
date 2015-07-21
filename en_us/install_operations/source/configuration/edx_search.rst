@@ -2,20 +2,27 @@
 
 .. _Enable edX Search:
 
-#################
+######################
 Enable edX Search
-#################
+######################
 
-.. contents:: Chapter Contents:
+This section describes how to enable search in your instance of Open edX.
 
-**************************
+.. contents::
+ :local:
+ :depth: 1
+
+*********
 Overview
-**************************
+*********
 
 `EdX Search`_ is a Django application that provides access to search services
 from within edX Platform applications. Searching is accomplished by creating an
 index of documents, and then searching within that index for matching
 information.
+
+.. Note::  
+  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
 
 .. _EdX Search: https://github.com/edx/edx-search/
 
@@ -53,7 +60,6 @@ EdX Search requires the following applications.
 * pyMongo (edX Platform version)
 * pytz
 * Django elasticsearch (0.4.5)
-
 
 *************************
 Install edX Search
@@ -113,7 +119,6 @@ Run ``pip`` with a Github link.
 
   pip install -e git+https://github.com/edx/edx-search.
     git@ae459ead41962c656ce794619f58cdae46eb7896
-
 
 *****************
 Enable Indexing
@@ -212,4 +217,5 @@ LMS
   implementation sets only course start date filter.
   
   * default: ``SearchFilterGenerator``
-  * LMS implementation: ``"lms.lib.courseware_search.lms_filter_generator.LmsSearchFilterGenerator"``
+  * LMS implementation: ``"lms.lib.courseware_search.lms_filter_generator.LmsSe
+    archFilterGenerator"``

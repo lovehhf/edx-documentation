@@ -2,13 +2,23 @@
 
 .. _Enable Course Prerequisites:
 
-######################################################
+#############################
 Enable Course Prerequisites
-######################################################
+#############################
 
-In the Open edX Birch release, a new feature allows course teams to set
-prerequisites for a course. Learners must complete the prerequisite courses
-before participating in the course.
+This section describes how to enable course prerequisites in your instance of
+Open edX.
+
+.. contents::
+   :local:
+   :depth: 1
+
+*********
+Overview
+*********
+
+Course teams to set prerequisites for a course. Learners must complete the
+prerequisite courses before participating in the course.
 
 To use this feature on your instance of Open edX, you must configure the
 Milestones application, then enable prerequisites in Studio and the Learning
@@ -19,7 +29,6 @@ Open edX Course* and *Open edX Learner's* guides.
 
 .. Note::  
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
-
 
 .. include:: configure_milestone_app.rst
 

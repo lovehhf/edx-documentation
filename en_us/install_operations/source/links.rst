@@ -29,6 +29,16 @@
 .. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box?torrent
 
 
+.. Cypress Links - Still need to change
+
+.. _Cypress Devstack: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-devstack.box
+
+.. _Cypress Fullstack: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box
+
+.. _Cypress Devstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-devstack.box?torrent
+
+.. _Cypress Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box?torrent
+
 
 .. _BitTorrent:  http://www.bittorrent.com/
 

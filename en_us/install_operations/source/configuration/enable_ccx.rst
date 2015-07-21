@@ -3,7 +3,7 @@
 .. _Enable CCX:
 
 ####################################
-Enabling Custom Courses
+Enable Custom Courses
 ####################################
 
 To enable designated users to create custom courses (CCX) on your instance of
