@@ -55,23 +55,27 @@ edX.
 To set your YouTube API key in Ansible's configuration file, follow these
 instructions:
 
-# Find the `configuration`_ repository on your Open edX server. If you are
-  running devstack or fullstack, this will be
-  ``/edx/app/edx_ansible/edx_ansible``.
-# In that repository, open the ``playbooks/roles/edxapp/defaults/main.yml``
-  file in a text editor.
-# Find the line that looks like this:
-  ``EDXAPP_YOUTUBE_API_KEY: "PUT_YOUR_API_KEY_HERE"``
-  Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Make sure
-  that your YouTube API key is still surrounded by quotation marks when
-  you are done.
-# Save the file in your text editor, and close it.
-# Run Ansible so that it applies your YouTube API key to your Open edX
-  installation. If you are running the Cypress named release, you can run:
+#. Find the `configuration`_ repository on your Open edX server. If you are
+   running devstack or fullstack, this will be
+   ``/edx/app/edx_ansible/edx_ansible``.
 
-  .. code-block:: bash
+#. In that repository, open the ``playbooks/roles/edxapp/defaults/main.yml``
+   file in a text editor.
 
-    /edx/bin/update edx-platform named-release/cypress
+#. Find the line that looks like this:
+   ``EDXAPP_YOUTUBE_API_KEY: "PUT_YOUR_API_KEY_HERE"``
+   Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Make sure
+   that your YouTube API key is still surrounded by quotation marks when
+   you are done.
+
+#. Save the file in your text editor, and close it.
+
+#. Run Ansible so that it applies your YouTube API key to your Open edX
+   installation. If you are running the Cypress named release, you can run:
+
+   .. code-block:: bash
+
+      /edx/bin/update edx-platform named-release/cypress
 
 .. _configuration: https://github.com/edx/configuration
 
@@ -86,20 +90,25 @@ configuration instead.
 
 To set your YouTube API key by editing JSON files, follow these instructions:
 
-# Find the `edx-platform`_ repository on your Open edX server. If you are
-  running devstack or fullstack, this will be ``/edx/app/edxapp/edx-platform``.
-# In the directory *above* your repository, there should be several JSON files,
-  including ``lms.auth.json`` and ``cms.auth.json``. If you are running devstack
-  or fullstack, this will be in the ``/edx/app/edxapp`` directory.
-# Open the ``lms.auth.json`` file in your text editor. Find the line that
-  looks like this:
-  ``"YOUTUBE_API_KEY": "PUT_YOUR_API_KEY_HERE",``
-  Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Make sure
-  that your YouTube API key is still surrounded by quotation marks when
-  you are done.
-# Save the file in your text editor, and close it.
-# Open the ``cms.auth.json`` file and make the same change. If that line does
-  not exist in this file, create it.
-# Save the file in your text editor, and close it.
+#. Find the `edx-platform`_ repository on your Open edX server. If you are
+   running devstack or fullstack, this will be ``/edx/app/edxapp/edx-platform``.
+
+#. In the directory *above* your repository, there should be several JSON files,
+   including ``lms.auth.json`` and ``cms.auth.json``. If you are running devstack
+   or fullstack, this will be in the ``/edx/app/edxapp`` directory.
+
+#. Open the ``lms.auth.json`` file in your text editor. Find the line that
+   looks like this:
+   ``"YOUTUBE_API_KEY": "PUT_YOUR_API_KEY_HERE",``
+   Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Make sure
+   that your YouTube API key is still surrounded by quotation marks when
+   you are done.
+
+#. Save the file in your text editor, and close it.
+
+#. Open the ``cms.auth.json`` file and make the same change. If that line does
+   not exist in this file, create it.
+
+#. Save the file in your text editor, and close it.
 
 .. _edx-platform: https://github.com/edx/edx-platform
