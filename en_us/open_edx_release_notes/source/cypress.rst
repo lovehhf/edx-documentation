@@ -22,10 +22,16 @@ The following new features are included in the Open edX Cypress release.
  :local:
 
 ======================================
-Single Sign-On
+Third Party Authentication
 ======================================
 
-TBP
+To enhance signin capabilities for your users, you can enable third party
+authentication between institutional authentication systems and your
+implementation of the Open edX. After you enable third party authentication,
+users can register and sign in to your Open edX site with their campus or
+institutional credentials.
+
+For more information, see `Enabling Third Party Authentication`_ in *Installing, Configuring, and Running the Open edX Platform*.
 
 ======================================
 LTI Provider
