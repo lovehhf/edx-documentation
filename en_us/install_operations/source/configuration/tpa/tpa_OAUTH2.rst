@@ -124,9 +124,9 @@ optional fields on the Add Provider Configuration (OAuth2) page.
 * **Other settings**
  
 
-*********************************************************************************
+************************************************************************
 Specify default third party authentication via QueryString parameter
-*********************************************************************************
+************************************************************************
 
 If the link to a course includes a query parameter (tpa_hint) that specifies
 one of the enabled third party authentication providers, and the user is not

@@ -17,6 +17,7 @@ campus or institutional credentials.
    enable_tpa_open
    tpa_SAML
    tpa_OAUTH2
+   OAUTH2_case_study
 
 This section includes information for the development operations (DevOps) and
 IT teams at Open edX installations.

@@ -65,4 +65,6 @@
 
 .. _Enable Badges In Each Course: http://edx.readthedocs.org/projects/open_edx_building-and-running-a-course/en/latest/building_course/creating_course_certificates.html#enable-or-disable-badges-for-your-course
 
-
+.. _Azure portal: https://manage.windowsazure.com
+.. _Microsoft Azure: https://azure.microsoft.com/en-
+   us/pricing/free-trial/

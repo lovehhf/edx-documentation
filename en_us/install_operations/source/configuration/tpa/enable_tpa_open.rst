@@ -14,10 +14,10 @@ enable this feature, follow these steps.
 
        "FEATURES" : {
            ...
+           "ENABLE_COMBINED_LOGIN_REGISTRATION": true
            "ENABLE_THIRD_PARTY_AUTH": true
        }
 
 #. Save the ``edx/app/edxapp/lms.env.json`` file.
 
-.. does "ENABLE_COMBINED_LOGIN_REGISTRATION": true also need to be set? 
 
