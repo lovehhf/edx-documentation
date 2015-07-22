@@ -151,11 +151,11 @@ Open edX Course*.
 Learner Profiles
 =====================
 
-With the new Open edX Learner Profile, you can share information about yourself
-with your learning community. Your profile can include an image that identifies
-you on the Open edX site as well as your location and other biographical
-information. Course teams and other learners in your courses can view your
-profile.
+With the new Open edX Learner Profile feature, course teams and learners can
+share information about themselves with the community. The profile can include
+an image that identifies the user on the Open edX site as well as the
+user's location and other biographical information. Course teams and other
+learners in the course can view others' profiles.
 
 For more information, see `Exploring the Profile Page`_ in *Building and
 Running an Open edX Course* and `Exploring the Profile Page for Learners`_ in
@@ -167,7 +167,7 @@ Cohorts
 
 Cohort creation and management has moved from the **Advanced Settings** page in
 Studio to the Instructor Dashboard in the LMS. Course teams can use the new
-Cohorts tab there to add and rename cohorts, change a cohort's assignment
+Cohorts page there to add and rename cohorts, change a cohort's assignment
 method, associate cohorts with content groups, and specify whether course-wide
 and content-specific discussions are divided by cohort.
 
@@ -225,16 +225,20 @@ enrollment track information. When course teams generate the grade report from
 the Instructor Dashboard, they can see the following additional information for
 each learner.
 
-* Enrollment track: honor, verified, or professional education. Verification
-  status, to identify learners in the verified or professional track who have
-  completed identity verification with edX.
+* Enrollment track, to identify the learner's enrollment mode as honor,
+  verified, or professional education.
+
+* Verification status, to identify learners in the verified or professional
+  track who have completed identity verification with edX.
 
 * Certificate eligibility status, to identify learners who have earned the
   passing grade in the course at the time of the grade report generation.
 
 * Certificate delivery status, to identify learners who have received their
-  certificates. The type of certificate, for learners who are eligible to
-  receive a certificate.
+  certificates. 
+
+* The type of certificate, for learners who are eligible to receive a
+  certificate.
 
 For more information, see `Interpret the Grade Report`_ in *Building and
 Running an Open edX Course*.
@@ -286,13 +290,14 @@ YouTube API 3.0 API Key
 ==========================================
 
 The Open edX Platform uses `Version 3 of the YouTube API`_, which requires that
-the application uses an API key.
+the application use an API key.
 
 If you intend for courses on your Open edX instance to include videos that are
 hosted on YouTube, you must get a YouTube API key and set the key in the Open
 edX Platform.
 
-For more information, see `Set YouTube API Key`_.
+For more information, see `Set YouTube API Key`_ in *Installing, Configuring,
+and Running the Open edX Platform*.
 
 *****************
 REST API Changes
@@ -359,15 +364,12 @@ enhancements in the Open edX LMS and discussions.
   
 * The LMS now has a region with a role of main and a descriptive aria-label
   allowing users to quickly navigate to the main content area using landmarks.
-  
-* The My Profile page now offers improved accessibility for learners who want
-  to add or change their profile images.
 
 * Several accessibility problems with numerical input problem types are now
   corrected.
 
-* The current status of the problem is now conveyed to screen reader users
-  properly.
+* A current status of the problem is now conveyed to learners who use screen
+  readers properly.
 
 * The workflow for checking how ASCII math is converted to MathML or MathJax
   format has been streamlined for screen reader users.
@@ -375,7 +377,7 @@ enhancements in the Open edX LMS and discussions.
 * Nonessential information is no longer included in aria-live regions, which
   improves the experience for screen reader users.
 
-* Improvements to the accessibility of discussion posts to screen reader users
+* Improvements to the accessibility of discussion posts for screen reader users
   are included in this release.
 
 * HTML ``iframe`` elements now show meaningful title attributes that describe
@@ -384,7 +386,7 @@ enhancements in the Open edX LMS and discussions.
 * The main blue colors used throughout the LMS user interface
   were changed to meet WCAG AA guidelines for contrast.
 
-* The LMS now includes a aria-live region to contain HTML for problems. 
+* The LMS now includes an aria-live region to contain HTML for problems. 
 
 * Submission buttons have been removed from the aria-live div scope.
 
@@ -426,7 +428,7 @@ You can also find `release announcements`_ on open.edx.org, which list changes
 in each release on edx.org. You can subscribe to have release announcements
 sent to your email account.
 
-Changes listed on July 8, 2015 and before are included in the Cypress release
+Changes listed on 8 July 2015 and before are included in the Cypress release
 of Open edX. 
 
 .. include:: links.rst
