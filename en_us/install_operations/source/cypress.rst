@@ -20,8 +20,9 @@ The Open edX Cypress release contains several new features for learners, course
 teams, and developers. See the Open edX Release Notes for more details.
 
 .. Note::
- There are several new features in the CYpress release that are available, but
- not configured in new installations.  For details, see the following topics.
+ There are several new features in the Cypress release that are available, but
+ not enabled by default in new installations.  For details,
+ see the following topics.
 
  * :ref:`Enable edX Search`
  * :ref:`Enable Badging`
@@ -32,10 +33,10 @@ teams, and developers. See the Open edX Release Notes for more details.
 What is the Cypress Git Tag?
 ******************************
 
-The Git tag for the Cypress release is **named-release/cypress**. You use this
+The Git tag for the Cypress release is ``named-release/cypress``. You use this
 tag to identify the version of Open edX code that is the Cypress release.
 
-The following Open edX Git repositories have the Git tag **named-release/cypress**:
+The following Open edX Git repositories have the Git tag ``named-release/cypress``:
 
 * edx-platform
 * configuration
@@ -53,16 +54,18 @@ The following Open edX Git repositories have the Git tag **named-release/cypress
 Installing the Cypress Release
 ******************************
 
-You can install the Open edX Cypress release using :ref:`Devstack <Install DevStack>` or :ref:`Fullstack <Install Open edX Fullstack>`.
+You can install the Open edX Cypress release using
+:ref:`Devstack <Install DevStack>` or
+:ref:`Fullstack <Install Open edX Fullstack>`.
 
-Review the prerequisites and instructions for each option, then choose the
-option that best meets your needs. Ensure you install the required software to
-run the edX Platform.
+Review the prerequisites and instructions for each option, and then choose the
+option that best meets your needs. Ensure that you install the
+required software to run the edX Platform.
 
 If you are upgrading from the Birch release, see `Upgrading from Birch to
 Cypress`_.
 
-For new installations, follow the steps below.
+For new installations, follow these steps.
 
 #. `Download the Vagrant Box`_ or `Download the BitTorrent File`_.
 
@@ -113,8 +116,8 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     devstack.box --name birch-devstack
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-cypress-
+     devstack.box --name cypress-devstack
 
 .. check names
 
@@ -122,8 +125,8 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     fullstack.box --name birch-fullstack
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-cypress-
+     fullstack.box --name cypress-fullstack
 
 .. confirm names
 
@@ -143,7 +146,7 @@ Before installing the Vagrant box, you must set the value of the
 Install the Vagrant Box
 =========================
 
-When you have completed the previous steps, install the Birch release by
+When you have completed the previous steps, install the Cypress release by
 following the installation instructions for :ref:`Devstack <Installing the Open
 edX Developer Stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
 
@@ -152,7 +155,7 @@ Upgrading from Birch to Cypress
 ********************************
 
 You can upgrade your Open edX instance that is running the Birch release to the
-Cypress release, using the ``migrate.sh`` script in the configuration
+Cypress release, by using the ``migrate.sh`` script in the configuration
 repository, `available here
 <https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
 

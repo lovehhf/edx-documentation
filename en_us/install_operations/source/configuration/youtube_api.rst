@@ -41,7 +41,7 @@ authorization credentials`_.
 Installing the YouTube API key in Open edX
 ******************************************
 
-Once you've gotten a YouTube API key, you'll need put that key into your
+After you obtain a YouTube API key, you must install that key into your
 Open edX installation. There are two different ways you can do this.
 
 Option 1: Ansible (recommended)
@@ -68,7 +68,7 @@ instructions:
    that your YouTube API key is still surrounded by quotation marks when
    you are done.
 
-#. Save the file in your text editor, and close it.
+#. Save the file in your text editor, and then close it.
 
 #. Run Ansible so that it applies your YouTube API key to your Open edX
    installation. If you are running the Cypress named release, you can run:
@@ -82,13 +82,13 @@ instructions:
 Option 2: JSON files
 ====================
 
-Ansible outputs information to several JSON files used by Open edX. If you'd
-prefer not to edit Ansible configuration, you can edit these files directly.
+Ansible outputs information to several JSON files used by Open edX. If you
+prefer not to edit the Ansible configuration, you can edit these files directly.
 However, every time you update Open edX, your edits will be overwritten by
 Ansible. As a result, we recommend setting your YouTube API key in Ansible's
 configuration instead.
 
-To set your YouTube API key by editing JSON files, follow these instructions:
+To set your YouTube API key by editing JSON files, follow these steps:
 
 #. Find the `edx-platform`_ repository on your Open edX server. If you are
    running devstack or fullstack, this will be ``/edx/app/edxapp/edx-platform``.
@@ -104,11 +104,11 @@ To set your YouTube API key by editing JSON files, follow these instructions:
    that your YouTube API key is still surrounded by quotation marks when
    you are done.
 
-#. Save the file in your text editor, and close it.
+#. Save the file in your text editor, and then close it.
 
 #. Open the ``cms.auth.json`` file and make the same change. If that line does
    not exist in this file, create it.
 
-#. Save the file in your text editor, and close it.
+#. Save the file in your text editor, and then close it.
 
 .. _edx-platform: https://github.com/edx/edx-platform
