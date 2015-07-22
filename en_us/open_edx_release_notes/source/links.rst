@@ -45,6 +45,8 @@
 
 .. _Set YouTube API Key: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/youtube_api.html
 
+.. _Enabling Third Party Authentication: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/tpa/index.html
+
 .. _Enabling Course and Video Licensing: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/enable_licensing.html
 
 .. _Enabling Custom Courses: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/enable_ccx.html
