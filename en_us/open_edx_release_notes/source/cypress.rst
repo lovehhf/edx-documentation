@@ -285,12 +285,28 @@ This release includes new templates for HTML and problem components. These
 templates provide updated guidelines and examples, accessibility information,
 and links to documentation.
 
+===================================================
+Uploading ORA2 Files to Alternative Storage Systems
+===================================================
 
-==========================================
-Uploading Files to Backends Other than S3
-==========================================
+By default, the Open Response Assessment application (ORA2) stores files that
+learners upload in an Amazon S3 bucket.
 
-TBP
+With the Cypress release, you can configure ORA2 to store files in a alternate
+system. To have learners' files stored in a system other than Amazon S3, you
+must complete the following steps.
+
+#. Implement the ``BaseBackend`` class defined in the `base.py`_ file. 
+
+   For example, the `S3.py`_ file in the same directory is an implementation of
+   ``Basebackend`` for Amazon S3. You must create the equivalent class for the
+   storage system you intend to use.
+
+#. Configure ORA2 to use your alternative storage system by modifying the value
+   of ``backend_setting`` in `init file`_
+   to point to your implementation of ``BaseBackend``.
+
+.. John ^^ I don't think this is complete
 
 ==========================================
 YouTube API 3.0 API Key

@@ -41,6 +41,12 @@
 
 .. Cypress Doc Links
 
+.. _base.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/base.py
+
+.. _S3.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
+
+.. _init file: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/__init__.py
+
 .. _Version 3 of the YouTube API: https://developers.google.com/youtube/v3/
 
 .. _Set YouTube API Key: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-cypress/configuration/youtube_api.html
