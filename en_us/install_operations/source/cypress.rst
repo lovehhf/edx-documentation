@@ -36,7 +36,8 @@ What is the Cypress Git Tag?
 The Git tag for the Cypress release is ``named-release/cypress``. You use this
 tag to identify the version of Open edX code that is the Cypress release.
 
-The following Open edX Git repositories have the Git tag ``named-release/cypress``:
+The following Open edX Git repositories have the Git tag 
+``named-release/cypress``.
 
 * edx-platform
 * configuration
@@ -116,7 +117,7 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-cypress-
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150730-cypress-
      devstack.box --name cypress-devstack
 
 .. check names
@@ -125,7 +126,7 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-cypress-
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150730-cypress-
      fullstack.box --name cypress-fullstack
 
 .. confirm names
