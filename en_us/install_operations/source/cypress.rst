@@ -135,12 +135,11 @@ Set the OPENEDX_RELEASE Environment Variable
 ============================================
 
 Before installing the Vagrant box, you must set the value of the
-`OPENEDX_RELEASE` environment variable to the Git tag for the Cypress release:
+`OPENEDX_RELEASE` environment variable to the Git tag for the Cypress release. Use the Linux ``export`` command.
 
 .. code-block:: bash
 
   export OPENEDX_RELEASE="named-release/cypress"
-
 
 =========================
 Install the Vagrant Box
@@ -154,7 +153,7 @@ edX Developer Stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
 Upgrading from Birch to Cypress
 ********************************
 
-You can upgrade your Open edX instance that is running the Birch release to the
+You can upgrade an Open edX instance that is running the Birch release to the
 Cypress release, by using the ``migrate.sh`` script in the configuration
 repository, `available here
 <https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
@@ -169,8 +168,8 @@ repository, `available here
   files. Then verify that you can restore your Open edX instance from the
   backup files.
 
-On the computer or virtual machine running the Birch release of Open edX, run
-the upgrade script for your type of installation:
+On the computer or virtual machine that is running the Birch release of Open
+edX, run the upgrade script for your type of installation:
 
 * For Devstack, run ``./migrate.sh -c devstack``.
 
@@ -182,5 +181,5 @@ the upgrade script for your type of installation:
 The script creates a temporary directory in which it upgrades Open edX, then
 cleans up extra files and directories when it finishes running.
 
-After upgrading Open edX to the Cypress release, run the edX Platform and
+After upgrading Open edX to the Cypress release, start the LMS and Studio and
 verify that course content and data was migrated correctly.

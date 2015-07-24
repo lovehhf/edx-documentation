@@ -12,6 +12,10 @@ This section describes how to install the Open edX Birch release.
  :local:
  :depth: 1
 
+.. note:: 
+  Now that the Open edX Cypress release is available, edX no longer
+  supports the Birch release.
+
 ******************************
 What's Included in Birch
 ******************************

@@ -120,10 +120,10 @@ Browser Login to Open edX Fullstack
 #. In your browser, go to Go to ``preview.localhost``, which is an alias entry
    for 192.168.33.10 that was created in your ``/etc/hosts`` file.
    
-   The latest version of fullstack has the demo course pre-loaded and dummy
-   accounts, you can log in to the website as:
+   The latest version of fullstack has the demo course pre-loaded and a set of
+   dummy accounts.
 
- * staff@example.com / edx
- * verified@example.com / edx
- * audit@example.com / edx
- * honor@example.com / edx
+   * staff@example.com / edx
+   * verified@example.com / edx
+   * audit@example.com / edx
+   * honor@example.com / edx
