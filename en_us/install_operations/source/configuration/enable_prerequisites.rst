@@ -3,7 +3,7 @@
 .. _Enable Course Prerequisites:
 
 #############################
-Enable Course Prerequisites
+Enabling Course Prerequisites
 #############################
 
 This section describes how to enable course prerequisites in your instance of

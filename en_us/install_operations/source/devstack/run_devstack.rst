@@ -3,7 +3,7 @@
 .. _Running the Open edX Developer Stack:
 
 ####################################
-Run the Open edX Developer Stack
+Running the Open edX Developer Stack
 ####################################
 
 This section describes how to run the Open edX Developer Stack.
@@ -11,7 +11,6 @@ This section describes how to run the Open edX Developer Stack.
 .. contents::
    :local:
    :depth: 1
-
 
 ****************************************
 Connect to the Devstack Virtual Machine

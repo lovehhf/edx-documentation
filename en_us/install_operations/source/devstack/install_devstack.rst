@@ -3,7 +3,7 @@
 .. _Installing the Open edX Developer Stack:
 
 ########################################
-Install the Open edX Developer Stack
+Installing the Open edX Developer Stack
 ########################################
 
 This section describes how to install the Open edX Developer Stack.

@@ -3,7 +3,7 @@
 .. _Installing Open edX Fullstack:
 
 ####################################
-Install Open edX Fullstack
+Installing Open edX Fullstack
 ####################################
 
 This section describes how to install the Open edX Fullstack.

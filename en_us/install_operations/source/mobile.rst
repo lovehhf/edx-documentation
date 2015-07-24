@@ -2,9 +2,9 @@
 
 .. _Setting up the Mobile Applications:
 
-######################################
-Setup the Open edX Mobile Applications
-######################################
+############################################
+Setting Up the Open edX Mobile Applications
+############################################
 
 This section is intended for those are who are building Open edX mobile
 applications and customizing an Open edX installation to support their use.

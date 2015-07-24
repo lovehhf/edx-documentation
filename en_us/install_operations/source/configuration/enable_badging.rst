@@ -3,7 +3,7 @@
 .. _Enable Badging:
 
 ##################
-Enable Badging
+Enabling Badging
 ##################
 
 This section describes how to enable badging in your instance of Open edX.

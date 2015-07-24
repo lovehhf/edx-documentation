@@ -2,9 +2,9 @@
 
 .. _YouTube_API:
 
-####################
-Set YouTube API Key
-####################
+###############################
+Setting Up the YouTube API Key
+###############################
 
 This section describes how to set the YouTube API key for your instance of
 Open edX.
@@ -25,7 +25,7 @@ The Open edX Platform uses the `YouTube Data API v3`_, which requires that
 the application uses an API key.
 
 *************************
-Getting a YouTube API key
+Get a YouTube API key
 *************************
 
 To get the YouTube API key, follow YouTube's `instructions for obtaining
@@ -38,7 +38,7 @@ authorization credentials`_.
 .. _instructions for obtaining authorization credentials: https://developers.google.com/youtube/registering_an_application
 
 ******************************************
-Installing the YouTube API key in Open edX
+Install the YouTube API key in Open edX
 ******************************************
 
 After you obtain a YouTube API key, you must install that key into your
@@ -77,13 +77,14 @@ instructions:
 
       /edx/bin/update edx-platform named-release/cypress
 
-.. _configuration: https://github.com/edx/configuration
 
 Option 2: JSON files
 ====================
 
 Ansible outputs information to several JSON files used by Open edX. If you
-prefer not to edit the Ansible configuration, you can edit these files directly.
+prefer not to edit the Ansible configuration, you can edit these files
+directly.
+
 However, every time you update Open edX, your edits will be overwritten by
 Ansible. As a result, we recommend setting your YouTube API key in Ansible's
 configuration instead.
@@ -91,11 +92,12 @@ configuration instead.
 To set your YouTube API key by editing JSON files, follow these steps:
 
 #. Find the `edx-platform`_ repository on your Open edX server. If you are
-   running devstack or fullstack, this will be ``/edx/app/edxapp/edx-platform``.
+   running Devstack or Fullstack, this will be ``/edx/app/edxapp/edx-
+   platform``.
 
-#. In the directory *above* your repository, there should be several JSON files,
-   including ``lms.auth.json`` and ``cms.auth.json``. If you are running devstack
-   or fullstack, this will be in the ``/edx/app/edxapp`` directory.
+#. In the directory *above* your repository, there should be several JSON
+   files, including ``lms.auth.json`` and ``cms.auth.json``. If you are running
+   devstack or fullstack, this will be in the ``/edx/app/edxapp`` directory.
 
 #. Open the ``lms.auth.json`` file in your text editor. Find the line that
    looks like this:
@@ -110,5 +112,3 @@ To set your YouTube API key by editing JSON files, follow these steps:
    not exist in this file, create it.
 
 #. Save the file in your text editor, and then close it.
-
-.. _edx-platform: https://github.com/edx/edx-platform

@@ -2,9 +2,9 @@
 
 .. _Enable edX Search:
 
-######################
-Enable edX Search
-######################
+#########################
+Enabling Open edX Search
+#########################
 
 This section describes how to enable search in your instance of Open edX.
 

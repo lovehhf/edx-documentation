@@ -3,7 +3,7 @@
 .. _Enable Certificates:
 
 #######################
-Enable Certificates
+Enabling Certificates
 #######################
 
 This section describes how to enable certificates in your instance of Open edX.

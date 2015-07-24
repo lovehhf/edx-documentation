@@ -2,9 +2,9 @@
 
 .. _Enable Entrance Exams:
 
-######################
-Enable Entrance Exams
-######################
+########################
+Enabling Entrance Exams
+########################
 
 This section describes how to enable entrance exams in your instance of Open
 edX.

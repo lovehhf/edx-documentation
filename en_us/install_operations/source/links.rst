@@ -16,6 +16,8 @@
 .. _VirtualBox Guest Editions: http://www.virtualbox.org/manual/ch04.html
 .. _Vagrant documentation: http://docs.vagrantup.com/v2/
 .. _Ansible: http://docs.ansible.com/ansible/index.html
+.. _edx-platform: https://github.com/edx/edx-platform
+.. _configuration: https://github.com/edx/configuration
 
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
@@ -28,6 +30,7 @@
 .. _Birch Devstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-devstack.box?torrent
 
 .. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box?torrent
+
 
 
 .. Cypress Links - Still need to change
